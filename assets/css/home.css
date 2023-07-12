@@ -1,0 +1,411 @@
+p{
+    color:#BDD5EA;
+}
+.img-leo{
+    position: relative;
+    background-image: url('../img/leandro-profile.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    top:20px;
+    border: solid #00E0FF 6px;
+    cursor:pointer;
+    animation: gira 20s ease-in-out infinite;
+    
+ 
+}
+
+.container{
+    width:90%;
+    max-width: 2024px;
+    min-height: 100%;
+    margin: auto;
+   
+}
+.container .h-name{
+    
+    width:100%;
+    min-height: 100px;
+    margin-top: 5%;
+    margin-bottom: 100px;
+  
+}
+.container .h-name h1 {
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    color:white;
+
+    
+    
+}
+
+.container .h-name h2 {
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    color:#00E0FF;
+
+    
+}
+
+/* Sobre min */
+.container .h-sobre {
+    width:100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+}
+.container .h-sobre  .h-title-sobre{
+    width:100%;
+    height: 50px;
+    border-bottom: 3px solid #00E0FF;
+    margin-bottom: 25px;
+}
+.container .h-sobre  .h-title-sobre h2{
+    margin-top: 5%;
+    font-family: 'Oswald',sans-serif;
+    font-weight:bold ;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+
+  
+   
+    
+}
+.container .h-sobre .paragraf{
+    font-family: 'Oswald',sans-serif;
+    font-style: normal;
+    text-align:justify ;
+    font-size: 26px;
+    line-height: 1.5;
+    
+}
+/* Experiencia */
+.container .h-experiencia .h-title-experiencia{
+    width:100%;
+    height: 50px;
+    border-bottom: 3px solid #00E0FF;
+    margin-bottom: 50px;
+
+}
+.container .h-experiencia .h-title-experiencia h2{
+    margin-top: 5%;
+    font-family: 'Oswald',sans-serif;
+    font-weight:bold ;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+
+  
+    
+}
+.container .h-experiencia .h-itens {
+    width: 100%;
+    min-height: 100px;
+}
+.container .h-experiencia .h-itens .item {
+   display:flex;
+   flex-direction: row;
+   width: 100%;
+   min-height: 220px;
+
+   color:orange;
+   
+}
+.container .h-experiencia .h-itens .work {
+    min-width: 25%;
+    max-width: 25%;
+    min-height: 100px;
+   
+    
+ }
+
+ 
+ .container .h-experiencia .h-itens .work h2{
+    font-family: 'Oswald',sans-serif;
+    font-weight:bold ;
+    font-size: 22px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    color: #BDD5EA;
+
+
+   
+    
+ }
+ .container .h-experiencia .h-itens .work p{
+    font-family: 'Oswald',sans-serif;
+    font-weight:normal ;
+    font-size: 22px;
+  
+    text-transform: uppercase;
+    color: #F7F7FF;
+
+
+    
+ }
+ .container .h-experiencia .h-itens  .item .description {
+    width: 75%;
+    min-height: 100px;
+ }
+ .container .h-experiencia .h-itens .item .description h2 {
+    font-family: 'Oswald',sans-serif;
+    font-weight:bold ;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #00E0FF;
+
+
+    
+ }
+
+ .container .h-experiencia .h-itens .item .description p{
+    font-family: 'Oswald',sans-serif;
+    font-weight:normal ;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: justify;
+    color:#BDD5EA;
+ }
+ /* Educação */
+ .container .h-educacao {
+    width: 100%;
+    min-height: 100px;
+ }
+ .container .h-educacao .h-title-educacao {
+    width:100%;
+    height: 50px;
+    border-bottom: 3px solid #00E0FF;
+    margin-bottom: 50px;
+ }
+ .container .h-educacao .h-title-educacao h2 {
+    margin-top: 5%;
+    font-family: 'Oswald',sans-serif;
+    font-weight:bold ;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:#F7F7FF
+
+ }
+ .container .h-educacao .item {
+    width:100%;
+    min-height: 220px;
+    display: flex;
+ }
+ .container .h-educacao .item .title {
+   margin-bottom: 10px;
+ }
+ .container .h-educacao .item .title h2 {
+    font-family: 'Oswald',sans-serif;
+    font-weight:bold ;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:#F7F7FF
+  }
+  .container .h-educacao .item .title span {
+    font-family: 'Oswald',sans-serif;
+    font-weight:bold ;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:#00E0FF;
+  }
+  .container .h-educacao .item p{
+    font-family: 'Oswald',sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 18px;
+  }
+  /* Habilidades */
+  .container .h-habilidades {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+  }
+  .container .h-habilidades .h-title-habilidades {
+    width: 100%;
+    height: 50px;
+    border-bottom: 3px solid #00E0FF;
+    margin-bottom: 50px;
+  }
+  .container .h-habilidades .h-title-habilidades h2 {
+    margin-top:5% ;
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:#F7F7FF;
+
+  }
+  .container .h-habilidades .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:50% ;
+    margin-bottom: 20px;
+  }
+  .container .h-habilidades .item .title{
+    min-width: 150px;
+  }
+  .container .h-habilidades .item h2{
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#F7F7FF;
+  }
+  .container .h-habilidades .item .icon {
+    position: relative;
+    width: 200px;
+    height:18px;
+    overflow: hidden;
+    border:2px solid #e7e7e7;
+    border-radius: 10px;
+    background: transparent;
+  }
+  /* Percentuais */
+  .container .h-habilidades .item .icon .percentual-10 {
+    width:110px;
+    height:100%;
+    border-radius: 6px;
+    background-color: #00E0FF;
+  }
+  .container .h-habilidades .item .icon .percentual-80 {
+    width:80px;
+    height:100%;
+    border-radius: 6px;
+    background-color: #00E0FF;
+  }
+  .container .h-habilidades .item .icon .percentual-100 {
+    width:100px;
+    height:100%;
+    border-radius: 6px;
+    background-color: #00E0FF;
+  }
+  .container .h-habilidades .item .icon .percentual-50 {
+    width:50px;
+    height:100%;
+    border-radius: 6px;
+    background-color: #00E0FF;
+  }
+  /* Container */
+  .container .h-contato {
+    width:100% ;
+    min-height: 200px;
+    margin-bottom: 50px;
+  }
+  .container .h-contato  .h-title-contato{
+    width: 100%;
+    height: 50px;
+    border-bottom: 3px solid #00E0FF;
+    margin-bottom: 50px;
+  }
+  .container .h-contato .h-title-contato h2 {
+    margin-top:5% ;
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:#F7F7FF;
+  }
+  .container .h-contato .item {
+    width:100%;
+    min-height: 80px;
+  }
+  .container .h-contato .item h2 {
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#F7F7FF;
+  }
+  .container .h-contato .item p {
+    font-family: 'Oswald',sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color:#00E0FF;
+  }
+  a{
+    color:#00E0FF;
+    text-decoration: none;
+  }
+  /* ======== WhatsApp ====== */
+  .whatsapp{
+    width: 8rem;
+    height: 8rem;
+    background-image: url('../img/whatsappPequenoIcone.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    animation: pulsar .9s linear infinite;
+}
+
+.whatsapp a{
+    opacity: 0;
+}
+
+/* ======= class para esconder os itens marcados com a classe hiden */
+.hiden {
+  visibility: hidden;
+  
+}
+.hid2 {
+  visibility: hidden;
+}
+
+.hid3 {
+  visibility: hidden;
+}
+.hid4 {
+  visibility: hidden;
+}
+
+
+/* ====== WhatsApp Animacao ====== */
+
+@keyframes pulsar{
+  0%{
+      transform: scale(0.5);
+      opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+  80%{
+      transform: scale(0.9);
+      opacity: 0;
+  }
+   100%{
+      transform: scale(1.2);
+      opacity: 0;
+  }
+
+
+}
+
+
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    width:100%;
+    height: 50px;
+    background-color: #00E0FF;
+    color:white;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    text-shadow:#e7e7e7 1px 2px 5px; color: #161B33;
+    
+  }
+ 
